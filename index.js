@@ -16,14 +16,14 @@ function hacerJugada(event) {
     event.target.textContent = turno;
     if (verificarGanador()) {
       setTimeout(function () {
-        alert(`${turno} has ganado`);
+        alert(`"${turno}" has ganado`);
         reiniciarJuego();
-      }, 500);
+      }, 300);
     } else if (tableroLleno()) {
       setTimeout(function () {
         alert("¡Empate!");
         reiniciarJuego();
-      }, 500);
+      }, 300);
     } else {
       cambiarTurno();
     }
