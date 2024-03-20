@@ -30,3 +30,9 @@ td {
   text-align: center;
   font-size: 30px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
