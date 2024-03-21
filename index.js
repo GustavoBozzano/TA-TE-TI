@@ -32,6 +32,7 @@ function hacerJugada(event) {
 
 function cambiarTurno() {
   turno = turno === "X" ? "O" : "X";
+  document.getElementById("turnoActual").textContent = `Turno: ${turno}`;
 }
 
 function verificarGanador() {
