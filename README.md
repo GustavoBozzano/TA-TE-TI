@@ -3,4 +3,4 @@
 Pequeño juego de "TRES EN RAYA" para pasar el momento.-
 
 ## 🔗 Link
-[TA-TE-TI](https://ta-te-ti-gusdev.netlify.app)
+[TA-TE-TI](https://gusdev-ta-te-ti.netlify.app)
